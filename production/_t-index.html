@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bank Mandiri adalah Bank Terbaik di Indonesia. Terdepan, Terpercaya, Tumbuh Bersama Anda. Apapun keinginan Anda, Bank Mandiri Saja.">
+    <meta name="keywords" content="bank mandiri, mandiri tabungan, mandiri kpr, mandiri kta, mandiri kartu kredit, bank indonesia, e-toll card, layanan 24 jam"> 
+
+    <title>Mandiri Reviews Information System | Dashboard</title>
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Simple Line Icons -->
+    <link href="../vendors/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../vendors/iCheck/skins/flat/grey.css" rel="stylesheet">
+	
+    <!-- bootstrap-progressbar -->
+    <link href="../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- JQVMap -->
+    <link href="../vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
+    <!-- bootstrap-daterangepicker -->
+    <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+    <!-- Bootstrap Select Master -->
+    <link rel="stylesheet" href="../vendors/bootstrap-select-master/dist/css/bootstrap-select.css">
+    <!-- Custom Theme Style -->
+    <link href="../build/scss/custom.css" rel="stylesheet">
+
+    <!-- Production Style -->
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <!-- Fixed Navbar -->
+    <div class="navbar-fixed-top">
+      <!-- Primary Navbar -->
+         <nav class="navbar navbar-default blue-navbar">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#"><img src="img/logo.svg" height="36" alt="Mandiri Reviews Information System Logo"></a>
+              <span class="subtitle">Integrated Change Management System</span>
+              <div class="search-store hidden-xs">
+                <label>Office : </label>
+                <select class="selectpicker">
+                  <option>Jakarta Timur</option>
+                  <option>Jakarta Selatan</option>
+                  <option>Jakarta Barat</option>
+                </select>
+              </div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a href="javascript:;" class="dropdown-toggle flags" data-toggle="dropdown" aria-expanded="false">
+                      <img src="icons/flag-id.png" height="18" alt="">&nbsp;&nbsp;<span class=" fa fa-angle-down"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-usermenu pull-right">
+                      <li><a href="javascript:;"> Profile</a></li>
+                      <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                    </ul>
+                  </li>
+                  <!-- Spacer -->
+                  <li><a class="spacer"><span class="icon-options-vertical icons"></span></a></li>
+                  <li>
+                    <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                      <img src="icons/i-nav-news.svg" alt="icon news">
+                      <span class="badge notif bg-orange"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><img src="icons/i-nav-set.svg" alt="icon news">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><img src="icons/i-nav-user.svg" alt="icon news">
+                    </a>
+                  </li>
+                </ul>
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+        </nav><!--/.navbar -->
+
+        <!-- Secondary Navbar -->
+        <nav class="navbar navbar-default sub-navbar hidden-xs">
+          <div class="container">
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                  <li>
+                    <a href="javascript:;">
+                      Dashboard
+                    </a>
+                  </li>
+                  <li class="active">
+                    <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                      Product
+                      <span class=" fa fa-angle-down"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-usermenu pull-right">
+                      <li><a href="javascript:;" class="orange"><i class="icon-plus icons"></i>&nbsp;Add New Product</a></li>
+                      <li><a href="#" class="info-number">Product Management <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Import Product <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Promo Price <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Mobile Price <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Bulk Delete Product <span class="badge bg-blue">24</span></a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                      Orders
+                      <span class=" fa fa-angle-down"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-usermenu pull-right">
+                      <li><a href="javascript:;" class="orange"><i class="icon-plus icons"></i>&nbsp;Add New Product</a></li>
+                      <li><a href="#" class="info-number">Product Management <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Import Product <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Promo Price <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Mobile Price <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Bulk Delete Product <span class="badge bg-blue">24</span></a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                      Reports
+                      <span class=" fa fa-angle-down"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-usermenu pull-right">
+                      <li><a href="javascript:;" class="orange"><i class="icon-plus icons"></i>&nbsp;Add New Product</a></li>
+                      <li><a href="#" class="info-number">Product Management <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Import Product <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Promo Price <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Mobile Price <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Bulk Delete Product <span class="badge bg-blue">24</span></a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                      Finance
+                      <span class=" fa fa-angle-down"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-usermenu pull-right">
+                      <li><a href="javascript:;" class="orange"><i class="icon-plus icons"></i>&nbsp;Add New Product</a></li>
+                      <li><a href="#" class="info-number">Product Management <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Import Product <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Promo Price <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Mobile Price <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Bulk Delete Product <span class="badge bg-blue">24</span></a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                      Administration
+                      <span class=" fa fa-angle-down"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-usermenu pull-right">
+                      <li><a href="javascript:;" class="orange"><i class="icon-plus icons"></i>&nbsp;Add New Product</a></li>
+                      <li><a href="#" class="info-number">Product Management <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Import Product <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Promo Price <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Mobile Price <span class="badge bg-blue">24</span></a></li>
+                      <li><a href="#" class="info-number">Bulk Delete Product <span class="badge bg-blue">24</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="more">
+                    <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                      <i class="icon-options icons large-icons"></i>
+                      <span class="badge bg-orange">2,423</span>
+                    </a>
+                  </li>
+                </ul>
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+      </nav><!--/.navbar -->
+    </div>
+    <!-- Menu Overlay -->
+    <div id="menu-overlay"></div>
+    <div class="container body">
+      <div class="main_container">
+        <!-- breadcrumb -->
+        <div class="row">
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+            <li class="active">Data</li>
+          </ol>
+        </div>
+        <!-- page content -->
+        <div role="main">
+          <!-- top tiles -->
+          <div class="row tile_count">
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+              <span class="count_top"><i class="icon-user icons"></i> Total Users</span>
+              <div class="count">2500</div>
+              <span class="count_bottom"><i class="orange">4% </i> From last Week</span>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+              <span class="count_top"><i class="icon-clock icons"></i> Average Time</span>
+              <div class="count">123.50</div>
+              <span class="count_bottom"><i class="orange"><i class="fa fa-sort-asc"></i>3% </i> From last Week</span>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+              <span class="count_top"><i class="icon-user icons"></i> Total Sales</span>
+              <div class="count orange">2,500</div>
+              <span class="count_bottom"><i class="orange"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+              <span class="count_top"><i class="icon-user icons"></i> Total Females</span>
+              <div class="count">4,567</div>
+              <span class="count_bottom"><i class="red"><i class="fa fa-sort-desc"></i>12% </i> From last Week</span>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+              <span class="count_top"><i class="icon-user icons"></i> Total Collections</span>
+              <div class="count">2,315</div>
+              <span class="count_bottom"><i class="orange"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+              <span class="count_top"><i class="icon-user icons"></i> Total Connections</span>
+              <div class="count">7,325</div>
+              <span class="count_bottom"><i class="orange"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>
+            </div>
+          </div>
+          <!-- /top tiles -->
+
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="dashboard_graph">
+
+                <div class="row x_title">
+                  <div class="col-md-6">
+                    <h3>Network Activities <small>Graph title sub-title</small></h3>
+                  </div>
+                  <div class="col-md-6">
+                    <div id="reportrange" class="pull-right">
+                      <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+                      <span>December 30, 2014 - January 28, 2015</span> <b class="caret"></b>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-7 col-sm-7 col-xs-12">
+                  <div id="chart_plot_01" class="demo-placeholder"></div>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-12 bg-white">
+                  <div class="x_title">
+                    <h4>Top Campaign Performance</h4>
+                    <div class="clearfix"></div>
+                  </div>
+
+                  <div class="col-md-12 col-sm-12 col-xs-6">
+                    <div>
+                      <p>Facebook Campaign</p>
+                      <div class="">
+                        <div class="progress progress_sm" style="width: 76%;">
+                          <div class="progress-bar bg-orange" role="progressbar" data-transitiongoal="80"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <p>Twitter Campaign</p>
+                      <div class="">
+                        <div class="progress progress_sm" style="width: 76%;">
+                          <div class="progress-bar bg-orange" role="progressbar" data-transitiongoal="60"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12 col-sm-12 col-xs-6">
+                    <div>
+                      <p>Conventional Media</p>
+                      <div class="">
+                        <div class="progress progress_sm" style="width: 76%;">
+                          <div class="progress-bar bg-orange" role="progressbar" data-transitiongoal="40"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <p>Bill boards</p>
+                      <div class="">
+                        <div class="progress progress_sm" style="width: 76%;">
+                          <div class="progress-bar bg-orange" role="progressbar" data-transitiongoal="50"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="clearfix"></div>
+              </div>
+            </div>
+
+          </div>
+          <br />
+
+          <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="x_panel tile fixed_height_320">
+                <div class="x_title">
+                  <ul class="nav panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-minus-square-o"></i></a>
+                      </li>
+                  </ul>
+                  <h4>App Versions</h4>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <h4>App Usage across versions</h4>
+                  <div class="widget_summary">
+                    <div class="w_left w_25">
+                      <span>0.1.5.2</span>
+                    </div>
+                    <div class="w_center w_55">
+                      <div class="progress">
+                        <div class="progress-bar bg-orange" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 66%;">
+                          <span class="sr-only">60% Complete</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w_right w_20">
+                      <span>123k</span>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+
+                  <div class="widget_summary">
+                    <div class="w_left w_25">
+                      <span>0.1.5.3</span>
+                    </div>
+                    <div class="w_center w_55">
+                      <div class="progress">
+                        <div class="progress-bar bg-orange" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
+                          <span class="sr-only">60% Complete</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w_right w_20">
+                      <span>53k</span>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="widget_summary">
+                    <div class="w_left w_25">
+                      <span>0.1.5.4</span>
+                    </div>
+                    <div class="w_center w_55">
+                      <div class="progress">
+                        <div class="progress-bar bg-orange" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+                          <span class="sr-only">60% Complete</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w_right w_20">
+                      <span>23k</span>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="widget_summary">
+                    <div class="w_left w_25">
+                      <span>0.1.5.5</span>
+                    </div>
+                    <div class="w_center w_55">
+                      <div class="progress">
+                        <div class="progress-bar bg-orange" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 5%;">
+                          <span class="sr-only">60% Complete</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w_right w_20">
+                      <span>3k</span>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="widget_summary">
+                    <div class="w_left w_25">
+                      <span>0.1.5.6</span>
+                    </div>
+                    <div class="w_center w_55">
+                      <div class="progress">
+                        <div class="progress-bar bg-orange" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 2%;">
+                          <span class="sr-only">60% Complete</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w_right w_20">
+                      <span>1k</span>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="x_panel tile fixed_height_320 overflow_hidden">
+                <div class="x_title">
+                  <ul class="nav panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-minus-square-o"></i></a>
+                      </li>
+                    </ul>
+                  <h4>Device Usage</h4>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <table class="" style="width:100%">
+                    <tr>
+                      <th style="width:37%;">
+                        <p>Top 5</p>
+                      </th>
+                      <th>
+                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                          <p class="">Device</p>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                          <p class="">Progress</p>
+                        </div>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <canvas class="canvasDoughnut" height="140" width="140" style="margin: 15px 10px 10px 0"></canvas>
+                      </td>
+                      <td>
+                        <table class="tile_info">
+                          <tr>
+                            <td>
+                              <p><i class="fa fa-square blue"></i>IOS </p>
+                            </td>
+                            <td>30%</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p><i class="fa fa-square orange"></i>Android </p>
+                            </td>
+                            <td>10%</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p><i class="fa fa-square purple"></i>Blackberry </p>
+                            </td>
+                            <td>20%</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p><i class="fa fa-square aero"></i>Symbian </p>
+                            </td>
+                            <td>15%</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p><i class="fa fa-square red"></i>Others </p>
+                            </td>
+                            <td>30%</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="x_panel tile fixed_height_320">
+                <div class="x_title">
+                  <ul class="nav panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-minus-square-o"></i></a>
+                      </li>
+                    </ul>
+                  <h4>Quick Settings</h4>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <div class="dashboard-widget-content">
+                    <ul class="quick-list">
+                      <li><i class="fa fa-calendar-o"></i><a href="#">Settings</a>
+                      </li>
+                      <li><i class="fa fa-bars"></i><a href="#">Subscription</a>
+                      </li>
+                      <li><i class="fa fa-bar-chart"></i><a href="#">Auto Renewal</a> </li>
+                      <li><i class="fa fa-line-chart"></i><a href="#">Achievements</a>
+                      </li>
+                      <li><i class="fa fa-bar-chart"></i><a href="#">Auto Renewal</a> </li>
+                      <li><i class="fa fa-line-chart"></i><a href="#">Achievements</a>
+                      </li>
+                      <li><i class="fa fa-area-chart"></i><a href="#">Logout</a>
+                      </li>
+                    </ul>
+
+                    <div class="sidebar-widget">
+                        <h4>Profile Completion</h4>
+                        <canvas width="150" height="80" id="chart_gauge_01" class="" style="width: 160px; height: 100px;"></canvas>
+                        <div class="goal-wrapper">
+                          <span id="gauge-text" class="gauge-value pull-left">0</span>
+                          <span class="gauge-value pull-left">%</span>
+                          <span id="goal-text" class="goal-value pull-right">100%</span>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-sm-6 col-xs-12">
+              <div class="x_panel">
+                <div class="x_title">
+                  <ul class="nav panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-minus-square-o"></i></a>
+                      </li>
+                    </ul>
+                  <h4>Recent Activities <small>Sessions</small></h4>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <div class="dashboard-widget-content">
+
+                    <ul class="list-unstyled timeline widget">
+                      <li>
+                        <div class="block">
+                          <div class="block_content">
+                            <h4 class="title">
+                                              <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
+                                          </h4>
+                            <div class="byline">
+                              <span>13 hours ago</span> by <a>Jane Smith</a>
+                            </div>
+                            <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="block">
+                          <div class="block_content">
+                            <h4 class="title">
+                                              <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
+                                          </h4>
+                            <div class="byline">
+                              <span>13 hours ago</span> by <a>Jane Smith</a>
+                            </div>
+                            <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="block">
+                          <div class="block_content">
+                            <h4 class="title">
+                                              <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
+                                          </h4>
+                            <div class="byline">
+                              <span>13 hours ago</span> by <a>Jane Smith</a>
+                            </div>
+                            <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="block">
+                          <div class="block_content">
+                            <h4 class="title">
+                                              <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
+                                          </h4>
+                            <div class="byline">
+                              <span>13 hours ago</span> by <a>Jane Smith</a>
+                            </div>
+                            <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <div class="x_panel">
+                    <div class="x_title">
+                      <ul class="nav panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-minus-square-o"></i></a>
+                      </li>
+                    </ul>
+                      <h4>Visitors location <small>geo-presentation</small></h4>
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                      <div class="dashboard-widget-content">
+                        <div class="col-md-4 hidden-small">
+                          <h4 class="line_30">125.7k Views from 60 countries</h4>
+
+                          <table class="countries_list">
+                            <tbody>
+                              <tr>
+                                <td>United States</td>
+                                <td class="fs15 fw700 text-right">33%</td>
+                              </tr>
+                              <tr>
+                                <td>France</td>
+                                <td class="fs15 fw700 text-right">27%</td>
+                              </tr>
+                              <tr>
+                                <td>Germany</td>
+                                <td class="fs15 fw700 text-right">16%</td>
+                              </tr>
+                              <tr>
+                                <td>Spain</td>
+                                <td class="fs15 fw700 text-right">11%</td>
+                              </tr>
+                              <tr>
+                                <td>Britain</td>
+                                <td class="fs15 fw700 text-right">10%</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div id="world-map-gdp" class="col-md-8 col-sm-12 col-xs-12" style="height:230px;"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="row">
+
+
+                <!-- Start to do list -->
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="x_panel">
+                    <div class="x_title">
+                      <ul class="nav panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-minus-square-o"></i></a>
+                      </li>
+                    </ul>
+                      <h4>To Do List <small>Sample tasks</small></h4>
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+
+                      <div class="">
+                        <ul class="to_do">
+                          <li>
+                            <p>
+                              <input type="checkbox" class="flat"> Schedule meeting with new client </p>
+                          </li>
+                          <li>
+                            <p>
+                              <input type="checkbox" class="flat"> Create email address for new intern</p>
+                          </li>
+                          <li>
+                            <p>
+                              <input type="checkbox" class="flat"> Have IT fix the network printer</p>
+                          </li>
+                          <li>
+                            <p>
+                              <input type="checkbox" class="flat"> Copy backups to offsite location</p>
+                          </li>
+                          <li>
+                            <p>
+                              <input type="checkbox" class="flat"> Food truck fixie locavors mcsweeney</p>
+                          </li>
+                          <li>
+                            <p>
+                              <input type="checkbox" class="flat"> Food truck fixie locavors mcsweeney</p>
+                          </li>
+                          <li>
+                            <p>
+                              <input type="checkbox" class="flat"> Create email address for new intern</p>
+                          </li>
+                          <li>
+                            <p>
+                              <input type="checkbox" class="flat"> Have IT fix the network printer</p>
+                          </li>
+                          <li>
+                            <p>
+                              <input type="checkbox" class="flat"> Copy backups to offsite location</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End to do list -->
+                
+                <!-- start of weather widget -->
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="x_panel">
+                    <div class="x_title">
+                      <ul class="nav panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-minus-square-o"></i></a>
+                      </li>
+                    </ul>
+                      <h4>Daily active users <small>Sessions</small></h4>
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <div class="temperature"><b>Monday</b>, 07:30 AM
+                            <span>F</span>
+                            <span><b>C</b></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-4">
+                          <div class="weather-icon">
+                            <canvas height="84" width="84" id="partly-cloudy-day"></canvas>
+                          </div>
+                        </div>
+                        <div class="col-sm-8">
+                          <div class="weather-text">
+                            <h4>Texas <br><i>Partly Cloudy Day</i></h4>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-12">
+                        <div class="weather-text pull-right">
+                          <h3 class="degrees">23</h3>
+                        </div>
+                      </div>
+
+                      <div class="clearfix"></div>
+
+                      <div class="row weather-days">
+                        <div class="col-sm-2">
+                          <div class="daily-weather">
+                            <h4 class="day">Mon</h4>
+                            <h3 class="degrees">25</h3>
+                            <canvas id="clear-day" width="32" height="32"></canvas>
+                            <h5>15 <i>km/h</i></h5>
+                          </div>
+                        </div>
+                        <div class="col-sm-2">
+                          <div class="daily-weather">
+                            <h4 class="day">Tue</h4>
+                            <h3 class="degrees">25</h3>
+                            <canvas height="32" width="32" id="rain"></canvas>
+                            <h5>12 <i>km/h</i></h5>
+                          </div>
+                        </div>
+                        <div class="col-sm-2">
+                          <div class="daily-weather">
+                            <h4 class="day">Wed</h4>
+                            <h3 class="degrees">27</h3>
+                            <canvas height="32" width="32" id="snow"></canvas>
+                            <h5>14 <i>km/h</i></h5>
+                          </div>
+                        </div>
+                        <div class="col-sm-2">
+                          <div class="daily-weather">
+                            <h4 class="day">Thu</h4>
+                            <h3 class="degrees">28</h3>
+                            <canvas height="32" width="32" id="sleet"></canvas>
+                            <h5>15 <i>km/h</i></h5>
+                          </div>
+                        </div>
+                        <div class="col-sm-2">
+                          <div class="daily-weather">
+                            <h4 class="day">Fri</h4>
+                            <h3 class="degrees">28</h3>
+                            <canvas height="32" width="32" id="wind"></canvas>
+                            <h5>11 <i>km/h</i></h5>
+                          </div>
+                        </div>
+                        <div class="col-sm-2">
+                          <div class="daily-weather">
+                            <h4 class="day">Sat</h4>
+                            <h3 class="degrees">26</h3>
+                            <canvas height="32" width="32" id="cloudy"></canvas>
+                            <h5>10 <i>km/h</i></h5>
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- end of weather widget -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /page content -->
+      </div>
+    </div>
+    <!-- footer content -->
+    <footer>
+      <div class="container">
+        &copy; Copyright 2017 Mandiri Reviews Information System. All rights reserved
+      </div>
+      <div class="clearfix"></div>
+    </footer>
+    <!-- /footer content -->
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Bootstrap Select Master -->
+    <script src="../vendors/bootstrap-select-master/dist/js/bootstrap-select.js" defer></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- Chart.js -->
+    <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
+    <!-- gauge.js -->
+    <script src="../vendors/gauge.js/dist/gauge.min.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- iCheck -->
+    <script src="../vendors/iCheck/icheck.min.js"></script>
+    <!-- Skycons -->
+    <script src="../vendors/skycons/skycons.js"></script>
+    <!-- Flot -->
+    <script src="../vendors/Flot/jquery.flot.js"></script>
+    <script src="../vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="../vendors/Flot/jquery.flot.time.js"></script>
+    <script src="../vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="../vendors/Flot/jquery.flot.resize.js"></script>
+    <!-- Flot plugins -->
+    <script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="../vendors/flot.curvedlines/curvedLines.js"></script>
+    <!-- DateJS -->
+    <script src="../vendors/DateJS/build/date.js"></script>
+    <!-- JQVMap -->
+    <script src="../vendors/jqvmap/dist/jquery.vmap.js"></script>
+    <script src="../vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+    <script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="../vendors/moment/min/moment.min.js"></script>
+    <script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.js"></script>
+	
+  </body>
+</html>

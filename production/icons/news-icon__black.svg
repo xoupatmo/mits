@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="20px" viewBox="0 0 26 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>news-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="header-960-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1054.000000, -25.000000)">
+        <g id="header-960">
+            <g id="news-icon" transform="translate(1055.000000, 26.000000)">
+                <path d="M0,3 L0,14.9969895 C0,15.7318341 0.269309638,16.4420472 0.757347915,16.9921544 C1.95078606,18.3359485 4.04921394,18.3359485 5.24128503,16.9921544 C5.72932331,16.4420472 6,15.7318341 6,14.9969895 L6,3 L0,3 Z" id="Stroke-1" stroke="#4A4A4A"></path>
+                <path d="M3,18 L19.3715562,18 C20.9717051,18 22.4584885,17.1762073 23.3028667,15.8222768 C23.7589352,15.0907385 24,14.2461561 24,13.3859814 L24,3.38612575 L24,0 L6,0 L6,5.43651195" id="Stroke-3" stroke="#4A4A4A"></path>
+                <path d="M8,9 L21,9" id="Stroke-5" stroke="#4A4A4A"></path>
+                <path d="M8,12 L21,12" id="Stroke-7" stroke="#4A4A4A"></path>
+                <polygon id="Fill-9" fill="#4A4A4A" points="14 4 21 4 21 2 14 2"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
