@@ -1,6 +1,6 @@
 /*
 |--------------------------------------------------------------------------
-| Mandiri Reviews Information System
+| Mandiri Integrated Testing System
 |--------------------------------------------------------------------------
 |
 | @author     : Supatmo Agus Edi Cahyono;
@@ -94,6 +94,8 @@ body {
 		padding-right: 15px;
 		background-color: $clr-white;
 		@include border-radius(50px);
+
+		.form-control {border:none;}
 
 		label {
 			display: inline-block;
